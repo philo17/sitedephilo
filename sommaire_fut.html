@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script type="text/javascript">
+      function afficherImageJoueur() {
+        const images = document.getElementsByClassName("image_fut");
+        for (let i = 0; i < images.length; i++) {
+          images[i].style.display = "none";
+        }
+
+        var e = document.getElementById("joueur-select");
+        var strUser = e.value;
+
+        console.log("Le joueur selectionné est " + strUser);
+
+        const joueur = document.getElementById(strUser);
+        joueur.style.display = "block";
+      }
+    </script>
+  </head>
+  <body>
+    <nav>
+      <a class="lien" href="fut.html">Equipe fut</a>
+      <a class="lien" href="palmares.html">Palmarès de Messi</a>
+      <a class="lien" href="accueil.html">Accueil</a>
+    </nav>
+    <p>
+      Voici toutes les meilleurs Cartes Fut 22 des meilleurs joueurs du monde
+    </p>
+    <!-- <nav>
+      <a id="debruyne" class="lien" href="cartes fut/de_bruyne.html"
+        >debruyne</a
+      >
+      <a id="donnaruma" class="lien" href="cartes fut/Donnaruma.html"
+        >donnaruma</a
+      >
+      <a id="halland" class="lien" href="cartes fut/Halland.html">halland</a>
+      <a id="lewan"" class="lien" href="cartes fut/Lewandowski.html">lewandowski</a>
+      <a id="mbappe" class="lien" href="cartes fut/Mbappe.html">mbappe</a>
+      <a id="messi" class="lien" href="cartes fut/Messi.html">messi</a>
+      <a id="neuer" class="lien" href="cartes fut/Neuer.html">neuer</a>
+      <a id="neymar" class="lien" href="cartes fut/Neymar.html">neymar</a>
+      <a id="ramos" class="lien" href="cartes fut/Ramos.html">ramos</a>
+      <a id="ronaldo" class="lien" href="cartes fut/Ronaldo.html">ronaldo</a>
+      <a id= "suarez" class="lien" href="cartes fut/Suarez.html">suarez</a>
+      <a id= "van dijk" class="lien" href="cartes fut/Van Dijk.html">van dijk</a>
+    </nav> -->
+
+    <div>
+      <label for="Joueur-select">Choisissez un joueur:</label>
+      <select
+        name="Joueurs"
+        id="joueur-select"
+        onchange="afficherImageJoueur()"
+      >
+        <option value="">--S'il vous plait choisissez une option--</option>
+        <option value="de_bruyne">De Bruyne</option>
+        <option value="donnaruma">Donnaruma</option>
+        <option value="halland">Halland</option>
+        <option value="lewandowski">Lewandowski</option>
+        <option value="mbappe">Mbappe</option>
+        <option value="messi_img">Messi</option>
+        <option value="neuer">Neuer</option>
+        <option value="neymar">Neymar</option>
+        <option value="ramos">Ramos</option>
+        <option value="ronaldo">Ronaldo</option>
+        <option value="suarez">Suarez</option>
+        <option value="vandijk">Van dijk</option>
+      </select>
+    </div>
+
+    <div>
+      <img class="image_fut" id="donnaruma" src="images/donnaruma.webp" />
+      <img class="image_fut" id="de_bruyne" src="images/debruyne.png" />
+      <img class="image_fut" id="halland" src="images/halland.png" />
+      <img class="image_fut" id="lewandowski" src="images/lewan.webp" />
+      <img class="image_fut" id="mbappe" src="images/mbappe.png" />
+      <img class="image_fut" id="messi_img" src="images/lionel-messi.png" />
+      <img class="image_fut" id="neuer" src="images/neuer.png" />
+      <img class="image_fut" id="neymar" src="images/neymar.png" />
+      <img class="image_fut" id="ramos" src="images/ramos.png" />
+      <img class="image_fut" id="ronaldo" src="images/ronaldo.jpg" />
+      <img class="image_fut" id="suarez" src="images/suarez.png" />
+      <img class="image_fut" id="vandijk" src="images/van-dijk.png" />
+    </div>
+  </body>
+
+  <script type="text/javascript">
+    const images = document.getElementsByClassName("image_fut");
+    for (let i = 0; i < images.length; i++) {
+      images[i].style.display = "none";
+    }
+  </script>
+</html>

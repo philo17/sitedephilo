@@ -1,0 +1,47 @@
+body {
+  background-color: #0f3460;
+}
+
+h1 {
+  color: #fff323;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#messi {
+  width: 500px;
+  height: 700px;
+  position: absolute;
+  left: 1100px;
+}
+
+.lien {
+  display: inline-block;
+  cursor: pointer;
+  height: 30px;
+  width: 250px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  text-align: center;
+  line-height: 30px;
+}
+
+.lien:hover {
+  display: inline-block;
+  background-color: #d1e8e4;
+}
+
+p {
+  font-size: 25px;
+  color: #fff323;
+}
+
+nav {
+  background-color: #fff323;
+}
+
+.image_fut {
+  display: inline-block;
+  width: 120px;
+}
