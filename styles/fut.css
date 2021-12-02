@@ -1,10 +1,15 @@
 p {
-  font-size: 50px;
+  font-size: 30px;
+  color: #6ecb63;
 }
 
-#Fut {
-  height: 650px;
+#fut {
+  height: 750px;
+}
+#fut_icons {
+  height: 750px;
+  left: 1100px;
 }
 body {
-  background-color: ;
+  background-color: #0f3460;
 }

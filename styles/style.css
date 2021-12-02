@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color: #fff323;
+  color: #6ecb63;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -34,14 +34,12 @@ h1 {
 
 p {
   font-size: 25px;
-  color: #fff323;
+  color: #6ecb63;
 }
 
 nav {
-  background-color: #fff323;
+  background-color: #6ecb63;
 }
-
-.image_fut {
-  display: inline-block;
-  width: 120px;
+#images_fut {
+  height: 200px;
 }
