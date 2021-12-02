@@ -40,6 +40,24 @@ p {
 nav {
   background-color: #6ecb63;
 }
-#images_fut {
-  height: 200px;
+
+.image_fut {
+  display: inline-block;
+  height: 550px;
+}
+
+.choix_cartes {
+  display: block;
+  width: 400px;
+  color: white;
+}
+
+.choix_cartes label {
+  color: white;
+}
+
+select {
+  display: inline-block;
+  height: 40px;
+  border: none;
 }
