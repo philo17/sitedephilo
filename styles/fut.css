@@ -9,7 +9,27 @@ p {
 #fut_icons {
   height: 750px;
   left: 1100px;
+  width: 800px;
 }
 body {
   background-color: #0f3460;
+}
+.lien {
+  display: inline-block;
+  cursor: pointer;
+  height: 30px;
+  width: 250px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  text-align: center;
+  line-height: 30px;
+}
+
+.lien:hover {
+  display: inline-block;
+  background-color: #d1e8e4;
+}
+nav {
+  background-color: #6ecb63;
 }

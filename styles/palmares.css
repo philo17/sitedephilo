@@ -66,3 +66,22 @@ table tr td {
 table tr:nth-of-type(2n + 1) {
   background-color: #deedf0;
 }
+.lien {
+  display: inline-block;
+  cursor: pointer;
+  height: 30px;
+  width: 250px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  text-align: center;
+  line-height: 30px;
+}
+
+.lien:hover {
+  display: inline-block;
+  background-color: #d1e8e4;
+}
+nav {
+  background-color: #6ecb63;
+}
